@@ -1,0 +1,9 @@
+# Pin the exact versions you actually ran with before submitting (pip freeze).
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.3      # HashingVectorizer, train_test_split (tooling only)
+lightgbm>=4.0          # MIT licence -- the final model
+rapidfuzz>=3.0         # MIT licence -- Levenshtein / token-sort similarity
+joblib>=1.3
+pyarrow>=14            # optional: parquet caching
